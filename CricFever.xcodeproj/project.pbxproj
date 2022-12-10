@@ -14,6 +14,7 @@
 		45997EC72943D06B00AC04E5 /* CricFeverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997EC62943D06B00AC04E5 /* CricFeverTests.swift */; };
 		45997ED12943D06B00AC04E5 /* CricFeverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997ED02943D06B00AC04E5 /* CricFeverUITests.swift */; };
 		45997ED32943D06B00AC04E5 /* CricFeverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997ED22943D06B00AC04E5 /* CricFeverUITestsLaunchTests.swift */; };
+		45997EE12943D6D200AC04E5 /* Manrope-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45997EE02943D66B00AC04E5 /* Manrope-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		45997ECC2943D06B00AC04E5 /* CricFeverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricFeverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45997ED02943D06B00AC04E5 /* CricFeverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricFeverUITests.swift; sourceTree = "<group>"; };
 		45997ED22943D06B00AC04E5 /* CricFeverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricFeverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45997EE02943D66B00AC04E5 /* Manrope-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		45997EE22943D70600AC04E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		45997EB42943D06900AC04E5 /* CricFever */ = {
 			isa = PBXGroup;
 			children = (
+				45997EE22943D70600AC04E5 /* Info.plist */,
+				45997EDF2943D65C00AC04E5 /* Fonts */,
 				45997EB52943D06900AC04E5 /* CricFeverApp.swift */,
 				45997EB72943D06900AC04E5 /* ContentView.swift */,
 				45997EB92943D06B00AC04E5 /* Assets.xcassets */,
@@ -125,6 +130,14 @@
 				45997ED22943D06B00AC04E5 /* CricFeverUITestsLaunchTests.swift */,
 			);
 			path = CricFeverUITests;
+			sourceTree = "<group>";
+		};
+		45997EDF2943D65C00AC04E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				45997EE02943D66B00AC04E5 /* Manrope-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +246,7 @@
 			files = (
 				45997EBD2943D06B00AC04E5 /* Preview Assets.xcassets in Resources */,
 				45997EBA2943D06B00AC04E5 /* Assets.xcassets in Resources */,
+				45997EE12943D6D200AC04E5 /* Manrope-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +434,7 @@
 				DEVELOPMENT_TEAM = LB8FCNCLXP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CricFever/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +464,7 @@
 				DEVELOPMENT_TEAM = LB8FCNCLXP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CricFever/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
